@@ -16,5 +16,5 @@ else
 	distversion = "Development Snapshot"
 end
 
-luciname    = "MMDVM 4B"
+luciname    = "MMDVM B+"
 luciversion = "2023.05.20"
