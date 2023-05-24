@@ -27,16 +27,16 @@ config mmdvmhost 'System_Fusion'
 
 config mmdvmhost 'General'
 	option Duplex '0'
+	option Callsign 'BI4PCS'
 	option Id '4603321'
 	option NetModeHang '5'
 	option RFModeHang '5'
-	option Callsign 'X86'
 
 config mmdvmhost 'Modem'
 	option RXOffset '0'
 	option TXOffset '0'
 	option RSSIMappingFile '/etc/mmdvm/RSSI.dat'
-	option Port '/dev/ttyUSB0'
+	option Port 'NullModem'
 
 config mmdvmhost 'DStar_Network'
 	option Enable '0'
