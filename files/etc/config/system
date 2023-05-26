@@ -6,7 +6,7 @@ config system
 	option timezone 'CST-8'
 	option zonename 'Asia/Shanghai'
 	option hostname 'BI4PCS'
-	option description '树莓派B+'
+	option description '树莓派4B'
 	option log_proto 'udp'
 	option conloglevel '8'
 	option cronloglevel '5'
